@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.status-order{
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+}
+.button-nav {
+    display: flex;
+    justify-content: start;
+    margin: 2rem;
+}
+
+.nav-button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid gray;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-size: large;
+    transition: background-color 0.3s, border-color 0.3s; /* Thêm hiệu ứng chuyển đổi */
+}
+
+.nav-button.active {
+    background-color: orange; /* Màu nền khi active */
+    border-color: black;      /* Màu viền khi active */
+}
+
+.nav-button:active {
+    background-color: orange;
+    border-color: black;
+}
+.content {
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem;
+}
